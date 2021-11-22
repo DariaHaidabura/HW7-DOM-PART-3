@@ -10,11 +10,6 @@ input {
   font-size:medium;
 }
 
-li {
-  font-size:medium;
-  position: relative;
-  line-height: 35px;
-}
 
 button {
   position:absolute;
@@ -38,16 +33,27 @@ ol {
   width: 100px;
 }
 
-li {
+.li-yellow {
   background-color: yellow;
   float:left;
   clear:left;
   font-weight: bold;
   transition: all .2s ease-in-out;
-  margin: 0 0 10px 20px
+  margin: 0 0 10px 20px;
+  font-size:medium;
+  position: relative;
+  line-height: 35px;
 }
 
 
 .li-green {
   background-color:rgba(57, 250, 66, 0.88);
+  float:left;
+  clear:left;
+  font-weight: bold;
+  transition: all .2s ease-in-out;
+  margin: 0 0 10px 20px;
+  font-size:medium;
+  position: relative;
+  line-height: 35px;
 }
